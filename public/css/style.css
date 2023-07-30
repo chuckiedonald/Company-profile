@@ -1,0 +1,48 @@
+.first-sec{
+    background-image: url('/img/onfocus-content-bg.jpg');
+    height: 90vh;
+    color: white;
+    margin-top: -12px;
+}
+
+.secd-sec-div{
+    height: 35vh;
+    user-select: none;
+    cursor: default;
+}
+
+.secd-sec-div:hover{
+    transform: scale(1.01);
+}
+
+.contact{
+    margin-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 25px !important;
+}
+
+@media(min-width:576px){
+    .pg{
+        margin-top: 50px !important;
+    }
+
+    .secd-sec-div{
+        height: 55vh;
+    }
+
+    .first-sec{
+        height: 70vh;
+    }
+
+    .siteprev-img{
+        transform: rotate(5deg) translate(0,0);
+        float: right;
+    }
+}
+
+.pb{
+    margin-top: -12px;
+}
+
+

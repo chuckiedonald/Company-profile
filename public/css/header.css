@@ -1,0 +1,14 @@
+.head-element{
+    text-decoration: none;
+    background-color: #070707;
+    color: white;
+    border-radius: 25px !important;
+}
+.head-element:hover{
+    color: #f8f9fa;
+    transform: scale(1.02);
+}
+
+.head-element-normal{
+    color: #070707;
+}
