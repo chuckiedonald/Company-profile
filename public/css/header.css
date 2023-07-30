@@ -17,3 +17,9 @@
 .head-element-normal:hover{
     color:rgb(87, 86, 86);
 }
+
+@media (max-width:360px) {
+    .nav-link{
+        padding:0.5rem 0.9rem !important;
+    }
+}

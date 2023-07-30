@@ -1,6 +1,6 @@
 .first-sec{
     background-image: url('/img/onfocus-content-bg.jpg');
-    height: 110vh;
+    height: 100vh;
     color: white;
     margin-top: -12px;
 }
@@ -21,6 +21,57 @@
     padding-right: 25px;
     border-radius: 25px !important;
 }
+
+
+@media (min-width:300px) {
+    .secd-sec-div{
+        height: 60vh !important;
+    }
+}
+
+@media (min-width:360px) {
+    .secd-sec-div{
+        height: 45vh !important;
+        padding:0 0.9rem !important;
+    }
+}
+
+/* @media (min-width:369px) {
+    .secd-sec-div{
+        height: 50vh !important;
+    }
+}
+
+@media (min-width:374px) {
+    .secd-sec-div{
+        height: 45vh !important;
+    }
+}
+
+@media (min-width:478px) {
+    .secd-sec-div{
+        height: 22vh !important;
+    }
+}
+
+@media (min-width:774px) {
+    .secd-sec-div{
+        height: 38vh !important;
+    }
+}
+
+@media (min-width:994px) {
+    .secd-sec-div{
+        height: 30vh !important;
+    }
+}
+
+@media (min-width: 1400px){
+    .secd-sec-div {
+        height: 38vh;
+    }
+
+} */
 
 @media(min-width:576px){
     .pg{
