@@ -1,12 +1,12 @@
 .first-sec{
     background-image: url('/img/onfocus-content-bg.jpg');
-    height: 90vh;
+    height: 100vh;
     color: white;
     margin-top: -12px;
 }
 
 .secd-sec-div{
-    height: 35vh;
+    height: 40vh;
     user-select: none;
     cursor: default;
 }
@@ -43,6 +43,10 @@
 
 .pb{
     margin-top: -12px;
+}
+
+.lead{
+    font-size: 1rem;
 }
 
 
