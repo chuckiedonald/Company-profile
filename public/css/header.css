@@ -12,3 +12,7 @@
 .head-element-normal{
     color: #070707;
 }
+
+.head-element-normal:hover{
+    color:rgb(87, 86, 86);
+}
