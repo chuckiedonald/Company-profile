@@ -1,14 +1,15 @@
 .first-sec{
     background-image: url('/img/onfocus-content-bg.jpg');
-    height: 100vh;
+    /* height: 100vh; */
     color: white;
     margin-top: -12px;
 }
 
 .secd-sec-div{
-    /* height: 40vh; */
+    height: 40vh;
     user-select: none;
     cursor: default;
+    margin: 16px 0 !important;
 }
 
 .secd-sec-div:hover{
@@ -83,6 +84,7 @@
     }
 
     .first-sec{
+
         height: 70vh;
     }
 
