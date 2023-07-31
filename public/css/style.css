@@ -6,7 +6,7 @@
 }
 
 .secd-sec-div{
-    height: 40vh;
+    /* height: 40vh; */
     user-select: none;
     cursor: default;
 }
@@ -23,13 +23,13 @@
 }
 
 
-@media (min-width:300px) {
+@media (max-width:300px) {
     .secd-sec-div{
         height: 60vh !important;
     }
 }
 
-@media (min-width:360px) {
+@media (max-width:360px) {
     .secd-sec-div{
         height: 45vh !important;
         padding:0 0.9rem !important;
