@@ -5,6 +5,22 @@
     border-radius: 25px !important;
     font-size: small;
 }
+
+.nav-contact{
+    /* text-decoration: none;
+    background-color: #070707;
+    color: white;
+    border-radius: 25px !important;
+    font-size: 0.5rem;
+    padding: 3px 15px !important;
+    text-align: center; */
+
+    text-decoration: none;
+    background-color: #070707;
+    color: white;
+    border-radius: 25px !important;
+    font-size: small;
+}
 .head-element:hover{
     color: #f8f9fa;
     transform: scale(1.02);
