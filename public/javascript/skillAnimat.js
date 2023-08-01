@@ -1,4 +1,3 @@
-
 function increaseValueOnScroll() {
   const skillBars = document.querySelectorAll('.skill-bar');
   const duration = 2000; // 2 seconds
@@ -6,18 +5,19 @@ function increaseValueOnScroll() {
   function increaseValue(skillBar, targetValue, targetDivClass) {
     let currentValue = 0;
     const targetDivs = document.querySelectorAll(`.${targetDivClass}`);
+    const incrementValue = targetValue / (duration / 1000);
 
     const interval = setInterval(() => {
       if (currentValue <= targetValue) {
         skillBar.textContent = currentValue;
         targetDivs.forEach((div) => {
-          div.style.width = currentValue + '%';
+          div.style.width = (currentValue / targetValue) * 100 + '%';
         });
-        currentValue++;
+        currentValue += incrementValue;
       } else {
         clearInterval(interval);
       }
-    }, duration / targetValue);
+    }, 1000 / incrementValue);
   }
 
   const observer = new IntersectionObserver((entries) => {
