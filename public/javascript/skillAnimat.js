@@ -7,7 +7,7 @@ function increaseValueOnScroll() {
   let divArray = Array.from(document.querySelectorAll(".ch-wdt"));
 
   // Set the duration for the animation (3 seconds)
-  const duration = 3000;
+  const duration = 4000;
 
   // Function to animate the progress bar and the count
   function animateProgressBar(i, targetValue) {
